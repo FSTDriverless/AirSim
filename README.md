@@ -1,10 +1,14 @@
 # Formula Student Technion Driverless - Based on AirSim
 
-To view AirSim git and the original README, please go to [AirSim git](https://github.com/Microsoft/AirSim).
+To view AirSim git and the original README, please go to [AirSim git](https://github.com/Microsoft/AirSim).  
+
+### Updates  
+
+* We share now our final trained model based on imitation learning. The model can be found in [Models folder](Models).    
 
 This project is about training and implementing self-driving algorithm for Formula Student Driverless competitions. In such competitions, a formula race car, designed and built by students, is challenged to drive through previously unseen tracks that are marked by traffic cones.  
 We present a simulator for formula student car and the environment of a driverless competition. The simulator is based on AirSim.  
-
+ 
 ![technion_formula_car](docs/images/technion_formula_car.png)  
 *The Technion Formula Student car. Actual car (left), simulated car (right)*  
 
