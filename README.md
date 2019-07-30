@@ -1,9 +1,10 @@
-# Formula Student Technion Driverless - Based on AirSim
-
+# Formula Student Technion Driverless - Based on AirSim  
+This is the repository of the paper [Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations (SIMULTECH 2019 conference)](https://arxiv.org/abs/1905.05940)  
+  
 To view AirSim git and the original README, please go to [AirSim git](https://github.com/Microsoft/AirSim).  
-
+  
 ### Updates  
-
+  
 * We share now our final trained model based on imitation learning. The model can be found in [Models folder](Models).    
 
 This project is about training and implementing self-driving algorithm for Formula Student Driverless competitions. In such competitions, a formula race car, designed and built by students, is challenged to drive through previously unseen tracks that are marked by traffic cones.  
@@ -67,7 +68,19 @@ A better way to generate training data exactly the way you want is by accessing 
 
 Our implementation of the algorithm on Nvidia Jetson TX2 can be found in this [repository](https://github.com/FSTDriverless/FSTImplementation).  
 
-### Formula Student Technion algorithm team
+### Citing    
+  
+If this repository helped you in your research, please consider citing:  
+```  
+@article{zadok2019explorations,
+  title={Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations},
+  author={Zadok, Dean and Hirshberg, Tom and Biran, Amir and Radinsky, Kira and Kapoor, Ashish},
+  journal={arXiv preprint arXiv:1905.05940},
+  year={2019}
+}
+```  
+  
+### Formula Student Technion algorithm team  
 
 [Tom Hirshberg](https://www.linkedin.com/in/tom-hirshberg-93935b16b/), [Dean Zadok](https://www.linkedin.com/in/dean-zadok-36886791/) and [Amir Biran](https://www.linkedin.com/in/amir-biran-199891125/).  
 
